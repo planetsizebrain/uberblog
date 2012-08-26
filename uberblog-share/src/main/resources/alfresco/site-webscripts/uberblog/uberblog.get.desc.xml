@@ -1,0 +1,6 @@
+<webscript>
+	<shortname>Uberblog</shortname>
+	<description>Uberblog dashlet</description>
+	<family>user-dashlet</family>
+	<url>/uberblog/list</url>
+</webscript>

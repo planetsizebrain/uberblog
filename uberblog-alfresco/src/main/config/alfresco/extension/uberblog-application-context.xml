@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+ 
+<beans>
+    <bean id="webscript.uberblog.get" class="be.planetsizebrain.alfresco.uberblog.webscript.UberblogWebscript" parent="webscript">
+    	<property name="blogService" ref="blogService" />
+    	<property name="siteService" ref="siteService" />
+    	<property name="nodeService" ref="nodeService" />
+    	<property name="contentService" ref="contentService" />
+    	<property name="personService" ref="personService" />
+    	<property name="authenticationService" ref="authenticationService" />
+    	<property name="fileFolderService" ref="fileFolderService" />
+	</bean>
+</beans>

@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>Uberblog</shortname>
+  <description>Get list of blog posts over all sites</description>
+  <url>/uberblog/list</url>
+  <format default="json">argument</format>
+  <authentication>user</authentication>
+  <transaction>required</transaction>
+</webscript>
